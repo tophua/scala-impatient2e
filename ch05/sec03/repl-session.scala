@@ -11,6 +11,7 @@ msg.timeStamp
 class Counter {
   private var value = 0
   def increment() { value += 1 }
+
   def current = value // No () in declaration
 }
 
